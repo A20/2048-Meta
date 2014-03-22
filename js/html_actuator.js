@@ -63,17 +63,17 @@ HTMLActuator.prototype.addTile = function (tile) {
 
   var outputtext = new Array();
   outputtext[0] = "";
-  outputtext[1] = "Threes";
-  outputtext[2] = "1024";
-  outputtext[3] = "2048";
-  outputtext[4] = "4096";
-  outputtext[5] = "AI";
-  outputtext[6] = "3D";
-  outputtext[7] = "4D";
-  outputtext[8] = "Flappy 2048";
-  outputtext[9] = "HN Plays 2048";
-  outputtext[10] = "2048 Hex";
-  outputtext[11] = "2048 Meta";
+  outputtext[1] = "Capezzone";
+  outputtext[2] = "Santanchè";
+  outputtext[3] = "Ghedini";
+  outputtext[4] = "Biancofiore";
+  outputtext[5] = "Cicchitto";
+  outputtext[6] = "Gelmini";
+  outputtext[7] = "Alfano";
+  outputtext[8] = "Carfagna";
+  outputtext[9] = "Verdini";
+  outputtext[10] = "Renzi";
+  outputtext[11] = "Berlusconi";
 
 
   inner.classList.add("tile-inner");
@@ -141,7 +141,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "Wow! You made a really awesome game!" : "Game over :-(";
+  var message = won ? "Wow! You created a Berlusconi!" : "Game over :-(";
 
   this.messageContainer.classList.add(type);
   this.messageContainer.getElementsByTagName("p")[0].textContent = message;
