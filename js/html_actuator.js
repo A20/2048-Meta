@@ -63,17 +63,17 @@ HTMLActuator.prototype.addTile = function (tile) {
 
   var outputtext = new Array();
   outputtext[0] = "";
-  outputtext[1] = "Threes";
-  outputtext[2] = "1024";
-  outputtext[3] = "2048";
-  outputtext[4] = "4096";
-  outputtext[5] = "AI";
-  outputtext[6] = "3D";
-  outputtext[7] = "4D";
-  outputtext[8] = "Flappy 2048";
-  outputtext[9] = "HN Plays 2048";
-  outputtext[10] = "2048 Hex";
-  outputtext[11] = "2048 Meta";
+  outputtext[1] = "Capezzone";
+  outputtext[2] = "Santanché";
+  outputtext[3] = "Ghedini";
+  outputtext[4] = "Biancofiore";
+  outputtext[5] = "Bondi";
+  outputtext[6] = "Cicchitto";
+  outputtext[7] = "Gelmini";
+  outputtext[8] = "Alfano";
+  outputtext[9] = "Carfagna";
+  outputtext[10] = "Verdini";
+  outputtext[11] = "Berlusconi";
 
 
   inner.classList.add("tile-inner");
