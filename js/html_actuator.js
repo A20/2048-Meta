@@ -67,12 +67,12 @@ HTMLActuator.prototype.addTile = function (tile) {
   outputtext[2] = "Santanché";
   outputtext[3] = "Ghedini";
   outputtext[4] = "Biancofiore";
-  outputtext[5] = "Bondi";
-  outputtext[6] = "Cicchitto";
-  outputtext[7] = "Gelmini";
-  outputtext[8] = "Alfano";
-  outputtext[9] = "Carfagna";
-  outputtext[10] = "Verdini";
+  outputtext[5] = "Cicchitto";
+  outputtext[6] = "Gelmini";
+  outputtext[7] = "Alfano";
+  outputtext[8] = "Carfagna";
+  outputtext[9] = "Verdini";
+  outputtext[10] = "Renzi";
   outputtext[11] = "Berlusconi";
 
 
@@ -141,7 +141,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "Wow! You made a really awesome game!" : "Game over :-(";
+  var message = won ? "Wow! You created a Berlusconi!" : "Game over :-(";
 
   this.messageContainer.classList.add(type);
   this.messageContainer.getElementsByTagName("p")[0].textContent = message;
